@@ -81,7 +81,7 @@
     <!--│                                │-->
     <!--│                                │-->
     <!--├─────────────Shadow─────────────┤-->
-    <!--│ Song title (3:20)              │-->
+    <!--│           Song title           │-->
     <!--│ Artist (OriginalYear)          │-->
     <!--└────────────────────────────────┘-->
     <element name="#UpcomingTracksWall"
@@ -100,25 +100,24 @@
         <!-- Song info -->
         <element type="Field" id="Tracks[1]"
                  xAnchor="#Cover_01.Left" x="20"
-                 yAnchor="#Cover_01.80" y="0"
+                 yAnchor="#Cover_01.78" y="0"
                  widthDock="x:#Cover_01.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="14" fg="255,202,45"
+                 align="center"
+                 font="Segoe UI Light" style="Regular" size="16" fg="255,202,45"
                  onClick="PlayNow">
             <child id="Title"/>
-            <child font="Segoe UI Light" style="Light" size="14" fg="240,240,240"> (</child>
-            <child id="Duration" font="Segoe UI Light" style="Light" size="14" fg="240,240,240"/>
-            <child font="Segoe UI Light" style="Light" size="14" fg="240,240,240">)</child>
         </element>
+        <!-- Artist info -->
         <element type="Field" id="Tracks[1]"
                  xAnchor="#Cover_01.Left" x="20"
                  yAnchor="#Cover_01.89" y="0"
                  widthDock="x:#Cover_01.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="12" fg="180,180,180"
+                 font="Segoe UI Light" style="Regular" size="14" fg="180,180,180"
                  onClick="PlayNow">
             <child id="Artist"/>
-            <child font="Segoe UI Light" style="Italic" size="12" fg="240,240,240"> (</child>
-            <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="12" fg="240,240,240"/>
-            <child font="Segoe UI Light" style="Italic" size="12" fg="240,240,240">)</child>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"> (</child>
+            <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"/>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">)</child>
         </element>
         <!-- Shadow for texts -->
         <element type="Block"
@@ -135,27 +134,27 @@
                  widthDock="#RightPanel.Width.50" width="0"
                  heightDock="#RightPanel.Height.50" height="0"
                  brightness="1.0"/>
+        <!-- Song info -->
         <element type="Field" id="Tracks[2]"
                  xAnchor="#Cover_02.Left" x="20"
-                 yAnchor="#Cover_02.80" y="0"
-                 widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="14" fg="255,202,45"
+                 yAnchor="#Cover_02.78" y="0"
+                 widthDock="x:#Cover_02.95" width="0"
+                 align="center"
+                 font="Segoe UI Light" style="Regular" size="16" fg="255,202,45"
                  onClick="PlayNow">
             <child id="Title"/>
-            <child font="Segoe UI Light" style="Light" size="14" fg="240,240,240"> (</child>
-            <child id="Duration" font="Segoe UI Light" style="Light" size="14" fg="240,240,240"/>
-            <child font="Segoe UI Light" style="Light" size="14" fg="240,240,240">)</child>
         </element>
+        <!-- Artist info -->
         <element type="Field" id="Tracks[2]"
                  xAnchor="#Cover_02.Left" x="20"
                  yAnchor="#Cover_02.89" y="0"
-                 widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="12" fg="180,180,180"
+                 widthDock="x:#Cover_02.95" width="0"
+                 font="Segoe UI Light" style="Regular" size="14" fg="180,180,180"
                  onClick="PlayNow">
             <child id="Artist"/>
-            <child font="Segoe UI Light" style="Italic" size="12" fg="240,240,240"> (</child>
-            <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="12" fg="240,240,240"/>
-            <child font="Segoe UI Light" style="Italic" size="12" fg="240,240,240">)</child>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"> (</child>
+            <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"/>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">)</child>
         </element>
         <!-- Shadow for texts -->
         <element type="Block"
@@ -174,25 +173,23 @@
                  brightness="1.0"/>
         <element type="Field" id="Tracks[3]"
                  xAnchor="#Cover_03.Left" x="20"
-                 yAnchor="#Cover_03.80" y="0"
-                 widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="14" fg="255,202,45"
+                 yAnchor="#Cover_03.78" y="0"
+                 widthDock="x:#Cover_03.95" width="0"
+                 align="center"
+                 font="Segoe UI Light" style="Regular" size="16" fg="255,202,45"
                  onClick="PlayNow">
             <child id="Title"/>
-            <child font="Segoe UI Light" style="Light" size="14" fg="240,240,240"> (</child>
-            <child id="Duration" font="Segoe UI Light" style="Light" size="14" fg="240,240,240"/>
-            <child font="Segoe UI Light" style="Light" size="14" fg="240,240,240">)</child>
         </element>
         <element type="Field" id="Tracks[3]"
                  xAnchor="#Cover_03.Left" x="20"
                  yAnchor="#Cover_03.89" y="0"
                  widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="12" fg="180,180,180"
+                 font="Segoe UI Light" style="Regular" size="14" fg="180,180,180"
                  onClick="PlayNow">
             <child id="Artist"/>
-            <child font="Segoe UI Light" style="Italic" size="12" fg="240,240,240"> (</child>
-            <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="12" fg="240,240,240"/>
-            <child font="Segoe UI Light" style="Italic" size="12" fg="240,240,240">)</child>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"> (</child>
+            <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"/>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">)</child>
         </element>
         <!-- Shadow for texts -->
         <element type="Block"
@@ -211,25 +208,23 @@
                  brightness="1.0"/>
         <element type="Field" id="Tracks[4]"
                  xAnchor="#Cover_04.Left" x="20"
-                 yAnchor="#Cover_04.80" y="0"
-                 widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="14" fg="255,202,45"
+                 yAnchor="#Cover_04.78" y="0"
+                 widthDock="x:#Cover_04.95" width="0"
+                 align="center"
+                 font="Segoe UI Light" style="Regular" size="16" fg="255,202,45"
                  onClick="PlayNow">
             <child id="Title"/>
-            <child font="Segoe UI Light" style="Light" size="14" fg="240,240,240"> (</child>
-            <child id="Duration" font="Segoe UI Light" style="Light" size="14" fg="240,240,240"/>
-            <child font="Segoe UI Light" style="Light" size="14" fg="240,240,240">)</child>
         </element>
         <element type="Field" id="Tracks[4]"
                  xAnchor="#Cover_04.Left" x="20"
                  yAnchor="#Cover_04.89" y="0"
                  widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="12" fg="180,180,180"
+                 font="Segoe UI Light" style="Regular" size="14" fg="180,180,180"
                  onClick="PlayNow">
             <child id="Artist"/>
-            <child font="Segoe UI Light" style="Italic" size="12" fg="240,240,240"> (</child>
-            <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="12" fg="240,240,240"/>
-            <child font="Segoe UI Light" style="Italic" size="12" fg="240,240,240">)</child>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"> (</child>
+            <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"/>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">)</child>
         </element>
         <!-- Shadow for texts -->
         <element type="Block"
@@ -260,7 +255,7 @@
               width="#RightPanel.100" height="#RightPanel.100"
               widthDock="#RightPanel.Width.100"
               heightDock="Y:#RightPanel.Bottom"
-              fg="80,80,80" fg2="96,169,23" allowPinning="true" resizePictures="false" disableHotPoint="true">
+              allowPinning="true" resizePictures="false" disableHotPoint="true">
         <!-- Background-->
         <element type="BackgroundAlbumCover" brightness="0.2" refreshInterval="20"/>
         <!-- Album Cover -->
@@ -277,7 +272,7 @@
                  xAnchor="#RightPanel.10" yAnchor="#RightPanel.Top"
                  x="0" y="100"
                  widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="22" fg="255,202,45" mouseOverFg="200,255,200"
+                 font="Segoe UI Light" style="Regular" size="22" fg="255,202,45"
                  id="Title"/>
         <!-- Artist -->
         <element type="Field" name="#TrackInfoArtist"
@@ -285,7 +280,7 @@
                  xAnchor="#RightPanel.10" yAnchor="#TrackInfoTitle.Bottom"
                  x="0" y="60"
                  widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Bold" size="30" fg="255,209,71" mouseOverFg="200,255,200"
+                 font="Segoe UI Light" style="Bold" size="30" fg="255,209,71"
                  id="Artist"/>
         <!-- Album -->
         <element type="Field" name="#TrackInfoAlbum"
@@ -293,7 +288,7 @@
                  xAnchor="#RightPanel.10" yAnchor="#TrackInfoArtist.Bottom"
                  x="0" y="60"
                  widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Bold" size="22" fg="240,240,240" mouseOverFg="200,255,200"
+                 font="Segoe UI Light" style="Bold" size="22" fg="240,240,240"
                  id="Album"/>
         <!-- OriginalYear -->
         <element type="Field" name="#TrackInfoOriginalYear"
@@ -301,7 +296,7 @@
                  xAnchor="#RightPanel.10" yAnchor="#TrackInfoAlbum.Bottom"
                  x="0" y="5"
                  widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="18" fg="240,240,240" mouseOverFg="200,255,200">
+                 font="Segoe UI Light" style="Regular" size="18" fg="240,240,240">
             <child> (</child>
             <child id="OriginalYear"/>
             <child>)</child>
@@ -311,18 +306,18 @@
                  xAnchor="#RightPanel.10" x="0"
                  yAnchor="#RightPanel.80" y="0"
                  widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="16" fg="240,240,240" mouseOverFg="200,255,200">
-            <child font="Segoe UI Light" style="Bold" size="14">GENRE           </child>
-            <child id="Genre" font="Segoe UI Light" size="14" fg="223,177,39"/>
+                 font="Segoe UI Light" style="Regular" size="16" fg="240,240,240">
+            <child>GENRE           </child>
+            <child id="Genre" fg="223,177,39"/>
         </element>
         <!-- Label -->
         <element type="Field" name="#TrackInfoLabel"
                  xAnchor="#RightPanel.10" yAnchor="#TrackInfoGenre.Bottom"
                  x="0" y="20"
                  widthDock="x:#RightPanel.95" width="0"
-                 font="Segoe UI Light" style="Regular" size="16" fg="240,240,240" mouseOverFg="200,255,200">
-            <child font="Segoe UI Light" style="Bold" size="14">LABEL            </child>
-            <child id="Publisher" font="Segoe UI Light" size="14" fg="223,177,39"/>
+                 font="Segoe UI Light" style="Regular" size="16" fg="240,240,240">
+            <child>LABEL            </child>
+            <child id="Publisher" fg="223,177,39"/>
         </element>
     </autoHide>
     <!-- Lyrics -->
@@ -456,16 +451,23 @@
              xAnchor="Panel.77" x="0"
              yAnchor="Panel.94" y="0"
              width="100"
-             font="Segoe UI Light"
-             style="Regular" size="16" fg="255,255,255"/>
+             font="Segoe UI Light" style="Regular" size="16" fg="255,255,255"/>
 
-    <element type="Icon" image="Images\KazaT\Shuffle_On.png" xAnchor="Panel.18" x="0" yAnchor="Panel.94.9" y="0"
-             width="17" height="15" onClick="ShuffleToggle" visibleTrigger="ShuffleOn"/>
-    <element type="Icon" image="Images\KazaT\Shuffle_Off.png" xAnchor="Panel.18" x="0" yAnchor="Panel.94.9" y="0"
-             width="17" height="15" onClick="ShuffleToggle" visibleTrigger="ShuffleOff"/>
-    <element type="Icon" image="Images\KazaT\Repeat_On.png" xAnchor="Panel.81" x="0" yAnchor="Panel.94.8" y="0"
+    <element type="Icon" image="Images\KazaT\shuffle-on.png"
+             xAnchor="Panel.18" x="0"
+             yAnchor="Panel.94.8" y="0"
+             width="17" height="17" onClick="ShuffleToggle" visibleTrigger="ShuffleOn"/>
+    <element type="Icon" image="Images\KazaT\shuffle-off.png"
+             xAnchor="Panel.18" x="0"
+             yAnchor="Panel.94.8" y="0"
+             width="17" height="17" onClick="ShuffleToggle" visibleTrigger="ShuffleOff"/>
+    <element type="Icon" image="Images\KazaT\repeat-on.png"
+             xAnchor="Panel.81" x="0"
+             yAnchor="Panel.94.8" y="0"
              width="17" height="17" onClick="RepeatToggle" visibleTrigger="RepeatOn"/>
-    <element type="Icon" image="Images\KazaT\Repeat_Off.png" xAnchor="Panel.81" x="0" yAnchor="Panel.94.8" y="0"
+    <element type="Icon" image="Images\KazaT\repeat-off.png"
+             xAnchor="Panel.81" x="0"
+             yAnchor="Panel.94.8" y="0"
              width="17" height="17" onClick="RepeatToggle" visibleTrigger="RepeatOff"/>
 
     <!-- SoundGraph   -->
@@ -510,7 +512,7 @@
              style="Regular" size="16" fg="255,255,255" mouseOverFg="255,221,128" onClick="PlayNext">:</element>
     <!-- RH Controls -->
     <!--┌────────┬────────┬────────┬────────┐-->
-    <!--│ Song   │ Track  │ Gallery│ Lyrics │-->
+    <!--│ Song   │ Track  │ Lyrics │ Gallery│-->
     <!--│  Info  │  List  │        │        │-->
     <!--└────────┴────────┴────────┴────────┘-->
     <element type="Icon" image="Images\KazaT\track.png" mouseOverImage="Images\KazaT\track.png" gammaCorrected="false" fade="0.1"
@@ -519,12 +521,12 @@
     <element type="Icon" image="Images\KazaT\artist.png" mouseOverImage="Images\KazaT\artist.png" gammaCorrected="false" fade="0.1"
              xAnchor="Panel.89" x="0" yAnchor="Panel.94.5" y="0" width="20" height="20"
              onClick="OpenAutoHidePanel:#PanelBio" visibleTrigger="BackgroundGallery"/>
-    <element type="Icon" image="Images\KazaT\gallery.png" mouseOverImage="Images\KazaT\gallery.png" gammaCorrected="false" fade="0.1"
-             xAnchor="Panel.93" x="0" yAnchor="Panel.94.5" y="0" width="20" height="20"
-             onClick="OpenAutoHidePanel:#ArtistGallery" visibleTrigger="BackgroundGallery"/>
     <element type="Icon" image="Images\KazaT\lyrics.png" mouseOverImage="Images\KazaT\lyrics.png" gammaCorrected="false" fade="0.1"
-             xAnchor="Panel.97" x="0" yAnchor="Panel.94.5" y="0" width="20" height="20"
+             xAnchor="Panel.93" x="0" yAnchor="Panel.94.5" y="0" width="20" height="20"
              onClick="OpenAutoHidePanel:#LyricsWall" visibleTrigger="BackgroundGallery"/>
+    <element type="Icon" image="Images\KazaT\gallery.png" mouseOverImage="Images\KazaT\gallery.png" gammaCorrected="false" fade="0.1"
+             xAnchor="Panel.97" x="0" yAnchor="Panel.94.5" y="0" width="20" height="20"
+             onClick="OpenAutoHidePanel:#ArtistGallery" visibleTrigger="BackgroundGallery"/>
     <!-- Track Info -->
     <!--┌──────────────────────────┬────────────────────────────┬──────────────────────────┐-->
     <!--│                          │         Song title         │                          │-->
@@ -556,9 +558,9 @@
     </element>
     <!-- Spectrum Visualiser -->
     <element type="SpectrumVisualiser"
-             xAnchor="#BottomPanel.0" x="0"
-             yAnchor="#BottomPanel.0" y="0"
-             widthDock="x:#BottomPanel.100" width="0"
-             height="200"
+             xAnchor="Panel.Left" x="0"
+             yAnchor="#BottomPanel.Bottom" y="-200"
+             widthDock="x:Panel.100" width="0"
+             heightDock="y:Panel.80" height="200"
              fg="50,255,255,255" bdr="10,255,255,255"/>
 </root>
