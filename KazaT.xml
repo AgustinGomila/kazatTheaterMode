@@ -529,7 +529,7 @@
              onClick="OpenAutoHidePanel:#ArtistGallery" visibleTrigger="BackgroundGallery"/>
     <!-- Track Info -->
     <!--┌──────────────────────────┬────────────────────────────┬──────────────────────────┐-->
-    <!--│                          │         Song title         │                          │-->
+    <!--│ Mute   Vol(-)  Vol(+)    │         Song title         │                          │-->
     <!--│ Artist (OriginalYear)    │                            │        Fav. Rating Stars │-->
     <!--└──────────────────────────┴────────────────────────────┴──────────────────────────┘-->
     <!-- Artist (Original Year) -->
@@ -542,6 +542,19 @@
         <child name="#BigOriginalYear" type="Field" id="OriginalYear" font="Segoe UI Light" style="Regular" size="20"/>
         <child font="Segoe UI Light" style="Regular" size="20">)</child>
     </element>
+    <!-- Volume control -->
+    <element type="Icon" image="Images\KazaT\volume-off.png"
+             xAnchor="Panel.2" x="0"
+             yAnchor="#BottomPanel.Top" y="14"
+             width="17" height="17" onClick="VolumeToggleMute"/>
+    <element type="Icon" image="Images\KazaT\volume-down.png"
+             xAnchor="Panel.6" x="0"
+             yAnchor="#BottomPanel.Top" y="14"
+             width="17" height="17" onClick="VolumeDown"/>
+    <element type="Icon" image="Images\KazaT\volume-up.png"
+             xAnchor="Panel.10" x="0"
+             yAnchor="#BottomPanel.Top" y="14"
+             width="17" height="17" onClick="VolumeUp"/>
     <!-- Song title -->
     <element name="#BigTitle" type="Field" id="Title"
              x="0" xAnchor="Panel.100"
