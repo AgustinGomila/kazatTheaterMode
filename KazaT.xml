@@ -529,8 +529,9 @@
              onClick="OpenAutoHidePanel:#ArtistGallery" visibleTrigger="BackgroundGallery"/>
     <!-- Track Info -->
     <!--┌──────────────────────────┬────────────────────────────┬──────────────────────────┐-->
-    <!--│ Mute   Vol(-)  Vol(+)    │         Song title         │                          │-->
-    <!--│ Artist (OriginalYear)    │                            │        Fav. Rating Stars │-->
+    <!--│ Mute   Vol(-)  Vol(+)    │         Song title         │                          │-->    
+    <!--│ Artist                   │                            │        Fav. Rating Stars │-->
+    <!--│ Album (OriginalYear)     │                            │                          │-->
     <!--└──────────────────────────┴────────────────────────────┴──────────────────────────┘-->
     <!-- Artist (Original Year) -->
     <element name="#BigArtist" type="Field" id="Artist"
@@ -538,9 +539,15 @@
              yAnchor="#BottomPanel.Top" y="60"
              widthDock="X.#BottomPanel.Left" width="0" reserveWidth="120"
              font="Segoe UI Light" style="Bold" size="20" fg="245,245,245">
-        <child font="Segoe UI Light" style="Regular" size="20"> (</child>
-        <child name="#BigOriginalYear" type="Field" id="OriginalYear" font="Segoe UI Light" style="Regular" size="20"/>
-        <child font="Segoe UI Light" style="Regular" size="20">)</child>
+    </element>
+    <element name="#BigAlbum" type="Field" id="Album"
+             x="25"
+             yAnchor="#BottomPanel.Top" y="96"
+             widthDock="X.#BottomPanel.Left" width="0" reserveWidth="120"
+             font="Segoe UI Light" style="Bold" size="18" fg="255,202,45">
+        <child font="Segoe UI Light" style="Regular" size="18"> (</child>
+        <child name="#BigOriginalYear" type="Field" id="OriginalYear" font="Segoe UI Light" style="Regular" size="18"/>
+        <child font="Segoe UI Light" style="Regular" size="18">)</child>
     </element>
     <!-- Volume control -->
     <element type="Icon" image="Images\KazaT\volume-off.png"
