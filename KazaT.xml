@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Add-On Name: KazaT                        -->
 <!-- Based on:	  Fusion, CoverList, RdioStyle -->
-<!-- Version:	  1.0.0                        -->
-<!-- Last Update: 19/08/2023                   -->
+<!-- Version:	  1.0.1                        -->
+<!-- Last Update: 01/05/2025                   -->
 <!-- Author: 	  Nitsuga                      -->
 <root>
     <settings enableScaling="true"/>
@@ -69,7 +69,7 @@
              xAnchor="#Cover.Left" x="0"
              yAnchor="#TopBottomPanel.Top" y="-10"
              widthDock="x:#TopBottomPanel.100" width="0"
-             height="10"
+             height="12"
              bg="20,255,255,255" fg="40,255,202,45"/>
     <!-- Upcoming Tracks Wall -->
     <!--┌────────────────────────────────┐-->
@@ -331,12 +331,13 @@
     <!--│                         └┤ │-->
     <!--│                          ▼ │-->
     <!--└────────────────────────────┘-->
-    <autoHide name="#LyricsWall"
-              xAnchor="#RightPanel.0"
-              x="0" y="0"
-              width="#RightPanel.Width"
-              heightDock="y:Panel.80" height="0"
-              fg="80,80,80" fg2="96,169,23" allowPinning="true" resizePictures="false" disableHotPoint="true">
+	<autoHide name="#LyricsWall"
+              xAnchor="#RightPanel.0" x="0"
+              y="0"
+              widthDock="Panel.Height.70" width="0"
+              heightDock="y:Panel.75" height="0"
+              fillColor="0,0,0" fg="80,80,80" fg2="96,169,23"
+              allowPinning="true" resizePictures="true" disableHotPoint="true">
         <!-- Background-->
         <element type="BackgroundAlbumCover" brightness="0.2" refreshInterval="20"/>
         <!-- Album Cover -->
@@ -354,14 +355,14 @@
                  x="0" y="100"
                  widthDock="x:#RightPanel.95" width="0"
                  font="Segoe UI Light" style="Regular" size="22" fg="255,202,45" mouseOverFg="200,255,200"/>
-        <!-- Lyrics -->
+        <!-- Lyrics -->		
         <element type="Lyrics"
-                 align="center"
-                 xAnchor="#RightPanel.10" yAnchor="#LyricsTitle.Bottom"
-                 x="0" y="50"
+				 align="center"
+                 xAnchor="#LyricsTitle.50" yAnchor="#LyricsTitle.0"
+                 x="0" y="100"
                  widthDock="Panel.Height.70" width="0"
                  heightDock="y:Panel.75" height="0"
-                 font="Cambria" style="Italic" size="16" fg="245,245,245" fg2="255,140,0"/>
+                 font="Cambria" style="Italic" size="16" fg="255,255,255" fg2="255,140,0"/>
     </autoHide>
     <!-- Artist Info -->
     <!-- Lyrics -->
@@ -437,10 +438,11 @@
                  interval="20" tags="artist"/>
     </autoHide>
     <!-- Player Controls -->
-    <!-- ┌─────────────┬────────┬──────────┬────────────────────────────────┬──────────┬────────┬─────────────┐ -->
-    <!-- │LH Controls  │Shuffle │   Play   │           SoundGraph           │   Play   │ Repeat │  RH Controls│ -->
-    <!-- │             │        │ Position │                                │ Duration │        │             │ -->
-    <!-- └─────────────┴────────┴──────────┴────────────────────────────────┴──────────┴────────┴─────────────┘ -->
+    <!--┌─────────────┬────────┬──────────┬────────────────────────────────┬──────────┬────────┬─────────────┐-->
+    <!--│LH Controls  │Shuffle │   Play   │           SoundGraph           │   Play   │ Repeat │  RH Controls│-->
+    <!--│             │        │ Position │                                │ Duration │        │             │-->    
+	<!--├ ─ ─ ─ ─ ─ ─ ┼─ ─ ─ ─ ┼─ ─ ─ ─ ─ ┼Spectrum Visualiser (background)┼ ─ ─ ─ ─ ─┼ ─ ─ ─ ─┼ ─ ─ ─ ─ ─ ─ ┤-->
+	<!--└─────────────┴────────┴──────────┴────────────────────────────────┴──────────┴────────┴─────────────┘-->
     <element name="#PlayPosition" type="PlayPosition"
              xAnchor="Panel.20" x="0"
              yAnchor="Panel.94" y="0"
@@ -578,9 +580,9 @@
     </element>
     <!-- Spectrum Visualiser -->
     <element type="SpectrumVisualiser"
-             xAnchor="Panel.Left" x="0"
+             xAnchor="Panel.Left" x="10"
              yAnchor="#BottomPanel.Bottom" y="-200"
-             widthDock="x:Panel.100" width="0"
+             widthDock="x:Panel.99" width="0"
              heightDock="y:Panel.80" height="200"
              fg="50,255,255,255" bdr="10,255,255,255"/>
 </root>
