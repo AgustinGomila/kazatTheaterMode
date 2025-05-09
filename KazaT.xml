@@ -115,7 +115,7 @@
                  font="Segoe UI Light" style="Regular" size="14" fg="180,180,180"
                  onClick="PlayNow">
             <child id="Artist"/>
-            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"> (</child>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">(</child>
             <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"/>
             <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">)</child>
         </element>
@@ -152,7 +152,7 @@
                  font="Segoe UI Light" style="Regular" size="14" fg="180,180,180"
                  onClick="PlayNow">
             <child id="Artist"/>
-            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"> (</child>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">(</child>
             <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"/>
             <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">)</child>
         </element>
@@ -187,7 +187,7 @@
                  font="Segoe UI Light" style="Regular" size="14" fg="180,180,180"
                  onClick="PlayNow">
             <child id="Artist"/>
-            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"> (</child>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">(</child>
             <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"/>
             <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">)</child>
         </element>
@@ -222,7 +222,7 @@
                  font="Segoe UI Light" style="Regular" size="14" fg="180,180,180"
                  onClick="PlayNow">
             <child id="Artist"/>
-            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"> (</child>
+            <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">(</child>
             <child id="OriginalYear" font="Segoe UI Light" style="Italic" size="14" fg="240,240,240"/>
             <child font="Segoe UI Light" style="Italic" size="14" fg="240,240,240">)</child>
         </element>
@@ -297,7 +297,7 @@
                  x="0" y="5"
                  widthDock="x:#RightPanel.95" width="0"
                  font="Segoe UI Light" style="Regular" size="18" fg="240,240,240">
-            <child> (</child>
+            <child>(</child>
             <child id="OriginalYear"/>
             <child>)</child>
         </element>
@@ -307,7 +307,7 @@
                  yAnchor="#RightPanel.80" y="0"
                  widthDock="x:#RightPanel.95" width="0"
                  font="Segoe UI Light" style="Regular" size="16" fg="240,240,240">
-            <child>GENRE           </child>
+            <child>GENRE</child>
             <child id="Genre" fg="223,177,39"/>
         </element>
         <!-- Label -->
@@ -316,7 +316,7 @@
                  x="0" y="20"
                  widthDock="x:#RightPanel.95" width="0"
                  font="Segoe UI Light" style="Regular" size="16" fg="240,240,240">
-            <child>LABEL            </child>
+            <child>LABEL</child>
             <child id="Publisher" fg="223,177,39"/>
         </element>
     </autoHide>
@@ -331,7 +331,7 @@
     <!--│                         └┤ │-->
     <!--│                          ▼ │-->
     <!--└────────────────────────────┘-->
-	<autoHide name="#LyricsWall"
+    <autoHide name="#LyricsWall"
               xAnchor="#RightPanel.0" x="0"
               y="0"
               widthDock="Panel.Height.70" width="0"
@@ -355,9 +355,9 @@
                  x="0" y="100"
                  widthDock="x:#RightPanel.95" width="0"
                  font="Segoe UI Light" style="Regular" size="22" fg="255,202,45" mouseOverFg="200,255,200"/>
-        <!-- Lyrics -->		
+        <!-- Lyrics -->
         <element type="Lyrics"
-				 align="center"
+                 align="center"
                  xAnchor="#LyricsTitle.50" yAnchor="#LyricsTitle.0"
                  x="0" y="100"
                  widthDock="Panel.Height.70" width="0"
@@ -440,9 +440,9 @@
     <!-- Player Controls -->
     <!--┌─────────────┬────────┬──────────┬────────────────────────────────┬──────────┬────────┬─────────────┐-->
     <!--│LH Controls  │Shuffle │   Play   │           SoundGraph           │   Play   │ Repeat │  RH Controls│-->
-    <!--│             │        │ Position │                                │ Duration │        │             │-->    
-	<!--├ ─ ─ ─ ─ ─ ─ ┼─ ─ ─ ─ ┼─ ─ ─ ─ ─ ┼Spectrum Visualiser (background)┼ ─ ─ ─ ─ ─┼ ─ ─ ─ ─┼ ─ ─ ─ ─ ─ ─ ┤-->
-	<!--└─────────────┴────────┴──────────┴────────────────────────────────┴──────────┴────────┴─────────────┘-->
+    <!--│             │        │ Position │                                │ Duration │        │             │-->
+    <!--├ ─ ─ ─ ─ ─ ─ ┼─ ─ ─ ─ ┼─ ─ ─ ─ ─ ┼Spectrum Visualiser (background)┼ ─ ─ ─ ─ ─┼ ─ ─ ─ ─┼ ─ ─ ─ ─ ─ ─ ┤-->
+    <!--└─────────────┴────────┴──────────┴────────────────────────────────┴──────────┴────────┴─────────────┘-->
     <element name="#PlayPosition" type="PlayPosition"
              xAnchor="Panel.20" x="0"
              yAnchor="Panel.94" y="0"
@@ -493,45 +493,53 @@
              yAnchor="Panel.94.2" y="0"
              width="50"
              font="Webdings" style="Regular"
-             size="16" fg="255,255,255" mouseOverFg="255,221,128" onClick="PlayPrevious">9</element>
+             size="16" fg="255,255,255" mouseOverFg="255,221,128" onClick="PlayPrevious">9
+    </element>
     <element name="#PlayButton" type="Text"
              xAnchor="Panel.6.6" x="0"
              yAnchor="Panel.93.6" y="0"
              width="70"
              font="Webdings" style="Bold"
-             size="27" fg="255,255,255" mouseOverFg="255,221,128" onClick="PlayPause" visibleTrigger="Playing">;</element>
+             size="27" fg="255,255,255" mouseOverFg="255,221,128" onClick="PlayPause" visibleTrigger="Playing">;
+    </element>
     <element name="#PauseButton" type="Text"
              xAnchor="Panel.6.6" x="0"
              yAnchor="Panel.93.6" y="0"
              width="70"
              font="Webdings" style="Bold"
-             size="27" fg="255,255,255" mouseOverFg="255,221,128" onClick="PlayPause" visibleTrigger="NotPlaying">4</element>
+             size="27" fg="255,255,255" mouseOverFg="255,221,128" onClick="PlayPause" visibleTrigger="NotPlaying">4
+    </element>
     <element name="#NextButton" type="Text"
              xAnchor="Panel.12.5" x="0"
              yAnchor="Panel.94.2" y="0"
              width="50"
              font="Webdings"
-             style="Regular" size="16" fg="255,255,255" mouseOverFg="255,221,128" onClick="PlayNext">:</element>
+             style="Regular" size="16" fg="255,255,255" mouseOverFg="255,221,128" onClick="PlayNext">:
+    </element>
     <!-- RH Controls -->
     <!--┌────────┬────────┬────────┬────────┐-->
     <!--│ Song   │ Track  │ Lyrics │ Gallery│-->
     <!--│  Info  │  List  │        │        │-->
     <!--└────────┴────────┴────────┴────────┘-->
-    <element type="Icon" image="Images\KazaT\track.png" mouseOverImage="Images\KazaT\track.png" gammaCorrected="false" fade="0.1"
+    <element type="Icon" image="Images\KazaT\track.png" mouseOverImage="Images\KazaT\track.png" gammaCorrected="false"
+             fade="0.1"
              xAnchor="Panel.85" x="0" yAnchor="Panel.94.5" y="0" width="20" height="20"
              onClick="OpenAutoHidePanel:#TrackInfoWall"/>
-    <element type="Icon" image="Images\KazaT\artist.png" mouseOverImage="Images\KazaT\artist.png" gammaCorrected="false" fade="0.1"
+    <element type="Icon" image="Images\KazaT\artist.png" mouseOverImage="Images\KazaT\artist.png" gammaCorrected="false"
+             fade="0.1"
              xAnchor="Panel.89" x="0" yAnchor="Panel.94.5" y="0" width="20" height="20"
              onClick="OpenAutoHidePanel:#PanelBio" visibleTrigger="BackgroundGallery"/>
-    <element type="Icon" image="Images\KazaT\lyrics.png" mouseOverImage="Images\KazaT\lyrics.png" gammaCorrected="false" fade="0.1"
+    <element type="Icon" image="Images\KazaT\lyrics.png" mouseOverImage="Images\KazaT\lyrics.png" gammaCorrected="false"
+             fade="0.1"
              xAnchor="Panel.93" x="0" yAnchor="Panel.94.5" y="0" width="20" height="20"
              onClick="OpenAutoHidePanel:#LyricsWall" visibleTrigger="BackgroundGallery"/>
-    <element type="Icon" image="Images\KazaT\gallery.png" mouseOverImage="Images\KazaT\gallery.png" gammaCorrected="false" fade="0.1"
+    <element type="Icon" image="Images\KazaT\gallery.png" mouseOverImage="Images\KazaT\gallery.png"
+             gammaCorrected="false" fade="0.1"
              xAnchor="Panel.97" x="0" yAnchor="Panel.94.5" y="0" width="20" height="20"
              onClick="OpenAutoHidePanel:#ArtistGallery" visibleTrigger="BackgroundGallery"/>
     <!-- Track Info -->
     <!--┌──────────────────────────┬────────────────────────────┬──────────────────────────┐-->
-    <!--│ Mute   Vol(-)  Vol(+)    │         Song title         │                          │-->    
+    <!--│ Mute   Vol(-)  Vol(+)    │         Song title         │                          │-->
     <!--│ Artist                   │                            │        Fav. Rating Stars │-->
     <!--│ Album (OriginalYear)     │                            │                          │-->
     <!--└──────────────────────────┴────────────────────────────┴──────────────────────────┘-->
@@ -547,7 +555,7 @@
              yAnchor="#BottomPanel.Top" y="96"
              widthDock="X.#BottomPanel.Left" width="0" reserveWidth="120"
              font="Segoe UI Light" style="Bold" size="18" fg="255,202,45">
-        <child font="Segoe UI Light" style="Regular" size="18"> (</child>
+        <child font="Segoe UI Light" style="Regular" size="18">(</child>
         <child name="#BigOriginalYear" type="Field" id="OriginalYear" font="Segoe UI Light" style="Regular" size="18"/>
         <child font="Segoe UI Light" style="Regular" size="18">)</child>
     </element>
